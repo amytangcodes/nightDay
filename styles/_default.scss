@@ -1,0 +1,110 @@
+body {
+	height: 100vh;
+	font-family: $amatic;	
+}
+
+h1 {
+	font-family: $day;
+	font-size: 80px;
+	color: $white;
+	text-align: center;
+	padding: 50px;
+	margin: 0;
+}
+// .black {
+// 	background-color: $black;
+// }
+
+// .white {
+// 	background-color: $white;
+// }
+
+#orb {
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	padding: 20px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.sun {
+	background: $sunYellow;
+	border: 10px solid $yellow;
+	&:hover {
+		border: 20px solid $yellow;
+	}
+}
+
+.moon {
+	background: $grey;
+	border: 10px solid $lightGrey;
+	&:hover {
+		border: 20px solid $lightGrey;
+	}
+}
+.visible {
+	background: $lightGrey;
+}
+#moonspot1 {
+	height: 40px;
+	width: 40px;
+	float: right;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#moonspot2 {
+	height: 80px;
+	width: 80px;
+	float: right;
+	border-radius: 100%;
+	margin: 30px;
+}
+
+#moonspot3 {
+	height: 50px;
+	width: 50px;
+	float: right;
+	border-radius: 100%;
+	margin: 60px;
+}
+
+#sky {
+	height: 100%;
+	width: 100%;
+}
+
+.day {
+	background: $skyBlue;
+}	
+
+.night {
+	background: url(../images/background.jpg) no-repeat center ;
+	background-size: cover;
+}
+
+footer {
+	color: $grey;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	a {
+		text-decoration: none;		
+		color: $grey;
+		&:hover {
+			color: $yellow;
+		}
+	}
+}
+
+
+
+
